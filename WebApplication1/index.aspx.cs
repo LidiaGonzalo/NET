@@ -128,6 +128,7 @@ namespace EjemploWebForm
             string SQL = "DELETE FROM usuario WHERE id=" + codigo;
             try
             {
+                
                 conn = new SqlConnection(cadenaConexion);
                 conn.Open();
                 SqlCommand sqlcmm = new SqlCommand();
