@@ -36,6 +36,7 @@
                 <asp:BoundField DataField="id" Visible="false" />
                 <asp:BoundField DataField="nombre" HeaderText="Nombre" Visible="true" />
                 <asp:BoundField DataField="apellidos" HeaderText="Apellidos" Visible="true" />
+                <asp:BoundField DataField="fNacimiento" HeaderText="F.nacimiento" Visible="true" />
             </Columns>
         </asp:GridView>
          
